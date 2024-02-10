@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button {
+    cursor: pointer;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 700px;
+    background-color: #0C0F38;
+}
+.header img{
+    padding: 50px 0px 0px 0px;
+}
+.header ul {
+    float: right;
+    margin: 50px 50px 0px 0px;
+}
+.header ul li {
+    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: white;
+}
+.header ul li a:hover {
+    color: #FDD430;
+}
+.header ul li a .select {
+    background-color: #FDD430;
+}
+.hosting {
+    width: 100%;
+    height: 600px;
+}
+.hosting section {
+    float: left;
+    width: 40%;
+    height: 600px;
+    padding-top: 30px;
+    display: inline;
+}
+.hosting section h1 {
+    color: white;
+    font-size: 60px;
+    padding: 10px 0px 0px 0px;
+}
+.header section h3 {
+    color: #FDD430;
+    font-size: 43px;
+    padding: 10px 0px 10px 0px;
+} 
+.header section p {
+    color: white;
+    padding: 30px 0px 20px 0px;
+    line-height: 25px;
+}
+.header section button {
+    margin: 20px 0px 0px 0px;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    border-style: none;
+}
+.header section button:hover {
+    color: white;
+    background-color: black;
+    transition: all 0.3s;
+}
+.hosting aside {
+    float: right;
+    width: 60%;
+    height: 600px;
+}
+.hosting aside img {
+    width: 100%;
+    height: 100%;
+}
+.whatsnew {
+    width: 100%;
+    height: 900px;
+    text-align: center;
+}
+.whatsnew h1 {
+    font-size: 45px;
+    padding: 70px;
+}
+.whatsnew p {
+    line-height: 30px;
+}
+.whatsnew button {
+    background-color: black;
+    color: white;
+    border-style: none;
+    text-transform: uppercase;
+    margin: 40px auto;
+    padding: 15px 50px;
+}
+.whatsnew button:hover {
+    background-color: #0C0F38;
+}
+.main {
+    width: 100%;
+    height: 1050px;
+    padding: 10px;
+    background-color: #0C0F38;
+}
+.main h1 {
+    font-size: 47px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.main p {
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+}
+.main p span{
+    font-size: 17px;
+    display: block;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+}
+.circle {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px auto;   
+    margin-bottom: -80px;
+}
+.services {
+    overflow: hidden;
+    margin: 50px 0px 50px 0px;
+}
+.sel {
+    float: left;
+    list-style: none;
+    padding: 25px 10px;
+    border: 2px solid rgb(212, 212, 212);
+    width: calc(33.3% - 20px);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 20px 20px 20px 0px;
+}
+.sel:hover {
+    background-color: rgb(132, 0, 255);
+    transition: ease-in all 0.5s;
+    cursor: pointer;
+}
+.services li {
+  padding-left: 30px;
+}
+.services li h4 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 90px;
+}
+.main button {
+    padding: 15px 60px;
+    margin-left: calc(50% - 110px);
+    border-style: none;
+}
+.main button:hover {
+    background-color: rgb(93, 63, 165);
+    color: white;
+    transition: all 0.2s;
+}
+.features {
+    width: 100%;
+    height: 1050px;
+    text-align: center;
+}
+.features h1 {
+    font-size: 50px;
+    margin-top: 60px;
+}
+.features p {
+    padding: 20px;
+    line-height: 30px;
+}
+.features ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 50px;
+}
+.features ul li {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 31%;
+    box-shadow: #ddd 0px 0px 10px;
+    transition: ease-in all 0.5s;
+}
+.features ul li:hover {
+    transition: ease-in all 0.1s;
+    transform: scale(1.1);
+}
+.features li img {
+    padding: 30px 0px 20px 0px;
+}
+.features li h3 {
+    color: rgb(73, 73, 73);
+}
+.features span {
+    display: flex;
+}
+.features span button {
+    background-color: black;
+    color: white;
+    border-style: none;
+    text-transform: uppercase;
+    margin: 40px auto;
+    padding: 15px 50px;
+}
+.features span button:hover {
+    background-color: #9232ff;
+    color: white;
+    transition: all 0.4s;
+}
+.signin {
+    width: 40%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #0C0F38;
+    border-radius: 45px;
+    margin-top: -150px;
+}
+.signin ul {
+    list-style: none;
+    padding: 45px 0px 0px 10px;
+}
+.signin ul li {
+    padding: 10px;
+}
+.signin ul input{
+    width: 95%;
+    height: 55px;
+    border-radius: 15px;
+    text-align: left;
+    border: 1px transparent;
+}
+.signin ul .msg input {
+    height: 90px;
+}
+.signin button {
+    padding: 20px 60px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: white;
+    color: rgb(255, 0, 119);
+    margin: 20px 0px 20px 150px;
+}
+.contactnow {
+    height: 580px;
+    width: 100%;
+    text-align: center;
+    background-color: #0C0F38;
+    color: white;
+    padding-top: 235px;
+    margin-top: -310px;
+    position: absolute;
+    z-index: -1;
+    
+}
+.contactnow h1 {
+    font-size: 50px;
+    margin-top: 60px;
+}
+.contactnow h2 {
+    font-size: 30px;
+    font-weight: 800;
+    padding: 20px 0px 20px 0px;
+}
+.contactnow p {
+    line-height: 30px;
+    font-weight: 450;
+}
+.footer  {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    display: block;
+    margin-top: 260px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
